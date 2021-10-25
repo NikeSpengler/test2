@@ -1,0 +1,67 @@
+/* Styling HTML-document */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 1px;
+  border: none;
+  color: brown;
+  text-align: center;
+}
+
+/* Header design */
+h {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: brown;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+/* Body color */
+body {
+  background-color: lightpink;
+}
+
+/* Input design */
+input {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  background-color: whitesmoke;
+}
+
+input:hover {
+  background-color: white;
+  transition: 0.5s ease-in-out;
+  opacity: 0.8;
+  border: none;
+}
+
+/* Button design */
+button {
+    background-color: brown;
+    border: none;
+    color:  lightpink;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 3px;
+  }
+
+
+button:hover {
+  background-color: black;
+  transition: 0.5s ease-in-out;
+  opacity: 0.7;
+}
+
+
+
+
